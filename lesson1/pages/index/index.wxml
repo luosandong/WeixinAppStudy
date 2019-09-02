@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <input  maxlength="10" bindinput="bindExpressNum" placeholder="请输入快递单号" />
+  <button type="default" catchtap="getExpressInfo" hover-class="other-button-hover"> 查询 </button>
+</view>
